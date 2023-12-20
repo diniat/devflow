@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { Input } from "@/components/ui/input";
 
+/* TODO: fix search problem */
+
 const GlobalSearch = () => {
   return (
     <div className="relative w-full max-w-[600px] max-lg:hidden">
