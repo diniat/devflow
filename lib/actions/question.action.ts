@@ -63,6 +63,7 @@ export async function getQuestions(params: GetQuestionsParams) {
 
     return { questions, isNext };
   } catch (error) {
+    console.log("Error on question.actions");
     console.log(error);
     throw error;
   }
@@ -131,6 +132,7 @@ export async function getQuestionById(params: GetQuestionByIdParams) {
 
     return question;
   } catch (error) {
+    console.log("error on question.actions 2");
     console.log(error);
     throw error;
   }
